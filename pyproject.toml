@@ -1,9 +1,9 @@
 [project]
-name = "react-agent"
+name = "functional-analysis-agent"
 version = "0.0.1"
-description = "Starter template for making a custom Reasoning and Action agent (using tool calling) in LangGraph."
+description = "Functional analysis question answering and problem solving agent using RAG and LangGraph."
 authors = [
-    { name = "William Fu-Hinthorn", email = "13333726+hinthornw@users.noreply.github.com" },
+    { name = "XiaoyunLiu" },
 ]
 readme = "README.md"
 license = { text = "MIT" }
@@ -32,10 +32,8 @@ requires = ["setuptools>=73.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
-packages = ["langgraph.templates.react_agent", "react_agent", "functional_analysis_agent"]
+packages = ["functional_analysis_agent"]
 [tool.setuptools.package-dir]
-"langgraph.templates.react_agent" = "src/react_agent"
-"react_agent" = "src/react_agent"
 "functional_analysis_agent" = "src/functional_analysis_agent"
 
 
