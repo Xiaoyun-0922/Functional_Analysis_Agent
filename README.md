@@ -60,7 +60,7 @@ OPENAI_API_KEY=...
 uv sync
 
 # 启动 FastAPI 服务
-uv run uvicorn functional_analysis_agent.api:app --reload --port 8000
+uv run python -m uvicorn functional_analysis_agent.api:app --port 8000
 ```
 
 后端服务将运行在 `http://127.0.0.1:8000`。
